@@ -5,9 +5,7 @@ import { config } from "./config.js";
 const port = 4000;
 const app = express();
 import axios from "axios";
-import { constructHeaders, send } from "./services/alipay-client-service.js";
 import fs from "fs";
-import { verify, verifySignature } from "./services/signature-service.js";
 
 import * as path from "path";
 
